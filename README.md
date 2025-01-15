@@ -1,6 +1,6 @@
 # push-up-detection
 
-<**Datasource**>:
+**Datasource**:
 
 https://www.kaggle.com/datasets/mohamadashrafsalama/pushup
 
@@ -14,8 +14,16 @@ About Datasets:
 
 Data Preprocessing:
 
-- Extract 30 frames from the videos
+- Extract frames from the videos
 
 - Extract Keypoints using Mediapipe
 
-- Sequencing the Keypoints for the model
+- Normalize Keypoint and Make Datasets 
+
+Steps to run: 
+
+1. Run by order: extract_frames_from_videos.py, extract_keypoints_from_frames.py, merge_keypoints.py, normalize_keypoints.py
+
+2. Run model folder, 2 .ipynb files
+
+3. Test with test_lstm.py, test.py
