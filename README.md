@@ -18,9 +18,9 @@ Data Preprocessing:
 
 - Extract Keypoints using Mediapipe
 
-- Normalize Keypoint and Make Datasets 
+- Normalize Keypoint and Make Datasets
 
-Steps to run: 
+Steps to run:
 
 1. Run by order: extract_frames_from_videos.py, extract_keypoints_from_frames.py, merge_keypoints.py, normalize_keypoints.py
 
